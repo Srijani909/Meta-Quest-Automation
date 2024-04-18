@@ -70,6 +70,6 @@ mvn test
 - This framework supports Chrome browser
 - This uses **WebDriverManager**, an open source browser binary manager. Selenium WebDriver requires you to download the binaries for each driver and hardcode the path of the driver. The disadvantage of this is each user must change the code to match their path, and they must manually check when new versions of the binaries are released. WebDriverManager automatically checks the latest version of the browser downloaded on your machine and downloads the required driver binary into the cache, eliminating the need to manually download and store binary files.
 - Screenshot on test failure: A screenshot of the active browser is captured and stored in the screenshots folder
-- Extent reporting and logging: After the test finishes, a visual report is generated for all the executed test cases from the suite. This report can be found in the 'report' folder
+- Extent reporting and logging: After the test finishes, a visual report is generated for all the executed test cases from the suite. 
 ![TestResult](https://user-images.githubusercontent.com/64181697/81464435-aba35d00-9176-11ea-9859-d97d9aa1aed3.png)
-<img width="1168" alt="Screen Shot 2020-05-08 at 9 56 41 PM" src="https://user-images.githubusercontent.com/64181697/81464457-d5f51a80-9176-11ea-8460-694660fc7904.png">
+<img width="1168" alt="Screen Shot 2020-05-08 at 9 56 41 PM" src="https://github.com/Srijani909/Meta-Quest-Automation/blob/master/report.png">
